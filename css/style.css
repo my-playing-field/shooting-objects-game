@@ -10,7 +10,7 @@
   border: 2px solid white;
 }
 .box:hover {
-  background-color: lightblue;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
