@@ -39,6 +39,11 @@ $('body').mousemove(function (event){
 
 $('body').click(function (){
     $('#bullet').css('bottom',height+'px');
+    for(var l=0;l<balls.length;l++){
+        if(Math.abs($(balls[l]).offset().left-$('#gun').offset().left)<25){
+            $(balls[l]).css('backgroundColor','red');
+        }
+    }
 })
 
 /*setInterval(function (){
@@ -50,12 +55,6 @@ $('body').click(function (){
     }
 },1);*/
 
-setInterval(function (){
-    for(var l=0;l<balls.length;l++){
-        if(Math.abs($(balls[l]).offset().left-$('#gun').offset().left)<50){
-            $(balls[l]).css('backgroundColor','transparent');
-        }
-    }
-},1000);
+
 
 
