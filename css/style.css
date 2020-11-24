@@ -16,7 +16,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 100%;
-  transition-property: all;
+  transition-property: left, top;
   transition-duration: 1000ms;
   background-color: green;
 }
