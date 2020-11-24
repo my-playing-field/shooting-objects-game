@@ -29,14 +29,14 @@ body {
   bottom: 0;
 }
 
-#bullet {
+.bullets {
   height: 50px;
   width: 50px;
   background-color: black;
   position: absolute;
   bottom: 0;
-  transition-property: all;
-  transition-duration: 1000ms;
+  transition-property: bottom;
+  transition-duration: 100ms;
 }
 
 /*# sourceMappingURL=style.css.map */
